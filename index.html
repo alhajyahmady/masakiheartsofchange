@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masaki Hearts of Change</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Masaki Hearts of Change</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#donate">Donate</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Gusa Mioyo, Badilisha Maisha</h2>
+        <p>Together, we can create change and make a difference in the lives of children.</p>
+        <a href="#donate" class="cta-button">Donate Now</a>
+    </section>    
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Masaki Hearts of Change is a non-profit organization dedicated to bringing positive change in communities.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Our Projects</h2>
+        <ul>
+            <li>Providing school supplies to underprivileged children.</li>
+            <li>Assisting low-income families with food and essential services.</li>
+            <li>Health awareness and hygiene programs.</li>
+            <li>Supporting women and youth with micro-loans.</li>
+        </ul>
+    </section>
+
+    <section id="donate">
+        <h2>Support Our Cause</h2>
+        <p>Make a difference today by donating through the following methods:</p>
+    
+        <div class="donation-methods">
+            <h3>Bank Details</h3>
+            <p><strong>Bank Name:</strong> National Bank of Tanzania (NMB)</p>
+            <p><strong>Account Name:</strong> Masaki Hearts of Change</p>
+            <p><strong>Account Number:</strong> 1234567890</p>
+            <p><strong>SWIFT Code:</strong> NMBTZTXXXXX</p>
+        </div>
+    
+        <div class="donation-methods">
+            <h3>Mobile Payment Methods</h3>
+            <p><strong>M-Pesa:</strong> 0767 123 456 (Name: Masaki Hearts)</p>
+            <p><strong>Tigo Pesa:</strong> 0657 123 456 (Name: Masaki Hearts)</p>
+            <p><strong>Airtel Money:</strong> 0687 123 456 (Name: Masaki Hearts)</p>
+            <p><strong>Halotel Pesa:</strong> 0677 123 456 (Name: Masaki Hearts)</p>
+        </div>
+    
+        <p class="donate-note">For inquiries, please contact us at <a href="mailto:info@masakiheartsofchange.org">info@masakiheartsofchange.org</a>.</p>
+    </section>    
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Masaki Hearts of Change. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#hero {
+    background: rgba(51, 51, 51, 0.7); /* Black overlay with 70% opacity */
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://images.unsplash.com/photo-1504159506876-f8338247a14a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNoYXJpdHl8ZW58MHx8MHx8fDA%3D') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#hero {
+    background-color: #ff5733;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#hero h2 {
+    font-size: 36px;
+}
+
+.cta-button {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #cc4626;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+form {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#donate {
+    background: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+    padding: 40px 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    text-align: center;
+}
+
+#donate h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#donate .donation-methods {
+    margin: 20px 0;
+    text-align: left;
+}
+
+#donate .donation-methods h3 {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+#donate .donation-methods p {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.donate-note {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #444;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+</style>
+</html>
